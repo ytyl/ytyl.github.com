@@ -1,4 +1,91 @@
-body{background-color:black}
+body {
+  background: #ece4d8;
+  font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+  color: #544943;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:hover {
+  color: #417090;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', Myriad, Calibri, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin: .7em 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+ol {
+  margin: .7em 0;
+  list-style-type: decimal;
+  padding-left: 1.35em;
+}
+
+ul {
+  margin: .7em 0;
+  padding-left: 1.35em;
+}
+
+ul li {
+  padding-left: 10px;
+  background: transparent url(../images/chevron.png) left 6px no-repeat;
+}
+
+
+code {
+  background: #fff6e9;
+  font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  padding: 0 5px 1px;
+}
+
+pre {
+  margin: 10px 0 20px;
+  padding: .7em;
+  background: #fff6e9;
+  border-bottom: 2px solid #bdb6ad;
+  font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  overflow: auto;
+}
+
+pre code {
+  padding: 0;
+}
+
+img {
+  -webkit-box-shadow: 0px 2px 0px #bdb6ad;
+  -moz-box-shadow: 0px 2px 0px #bdb6ad;
+  box-shadow: 0px 2px 0px #bdb6ad;
+  border: 2px solid #fff6e9;
+  max-width: 502px;
+}
+
+hr {
+  border: none;
+  outline: none;
+  height: 18px;
+  background: transparent url('../images/hr.jpg') center center repeat-x;
+  margin: 0 0 20px;
+}
+
 header span.ribbon-inner {
   position: absolute;
   display: block;
@@ -11,4 +98,6 @@ header span.ribbon-inner {
 }
 menu{position:absolute};
 mainadv{};
+
+
 
