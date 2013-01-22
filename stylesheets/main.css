@@ -1,2 +1,12 @@
+header span.ribbon-inner {
+  position: absolute;
+  display: block;
+  background-color: #cd596b;
+  border: 4px solid #7c334f;
+  padding: 1px;
+  z-index: 1;
+  width:100%;
+}
 menu{position:absolute};
 mainadv{};
+
