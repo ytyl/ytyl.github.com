@@ -30,46 +30,6 @@ strong {
   font-weight: bold;
 }
 
-em {
-  font-style: italic;
-}
-
-ol {
-  margin: .7em 0;
-  list-style-type: decimal;
-  padding-left: 1.35em;
-}
-
-ul {
-  margin: .7em 0;
-  padding-left: 1.35em;
-}
-
-ul li {
-  padding-left: 10px;
-  background: transparent url(../images/chevron.png) left 6px no-repeat;
-}
-
-
-code {
-  background: #fff6e9;
-  font: normal normal .8em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-  padding: 0 5px 1px;
-}
-
-pre {
-  margin: 10px 0 20px;
-  padding: .7em;
-  background: #fff6e9;
-  border-bottom: 2px solid #bdb6ad;
-  font: normal normal .9em/1.7 "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-  overflow: auto;
-}
-
-pre code {
-  padding: 0;
-}
-
 img {
   -webkit-box-shadow: 0px 2px 0px #bdb6ad;
   -moz-box-shadow: 0px 2px 0px #bdb6ad;
@@ -77,15 +37,26 @@ img {
   border: 2px solid #fff6e9;
   max-width: 502px;
 }
-
-hr {
-  border: none;
-  outline: none;
-  height: 18px;
-  background: transparent url('../images/hr.jpg') center center repeat-x;
-  margin: 0 0 20px;
+header h1 {
+  background-color: #7c334f;
+  font-size: 2.5em;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ece4d8;
+  text-align: center;
+  line-height:1;
+  padding: 14px 20px 0;
 }
 
+header h2 {
+  background-color: #7c334f;
+  font: bold italic .85em/1.5 Georgia, Times, “Times New Roman”, serif;
+  color: #e69b95;
+  padding-bottom: 14px;
+  margin-top: -3px;
+  text-align: center;
+}
 header span.ribbon-inner {
   position: absolute;
   display: block;
