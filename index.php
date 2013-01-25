@@ -45,18 +45,19 @@
 				<iframe width="560" height="315" src="http://www.youtube.com/embed/fMplrMKIIoo?showinfo=0" frameborder="0" allowfullscreen></iframe>
 				<postsharing><a href="http://twitter.com/share" class="twitter-share-button" data-text="Work in progress #Ciacco Davide" data-url="http://ciaccodavi.de" data-count="small"></a></postsharing>
 			</div><br>
-			<div id="post">
-			<t>Eric the Car Guy!</t><br>
-				<a href=\"post.php?id=$ID&liked=1\"><likeButton>+<span>&nbsp$likes</span></likeButton></a><unlikes>&nbsp&nbsp<a href=\"post.php?id=$ID&unliked=1\"><unlikeButton>-<span>&nbsp$unlikes</span></unlikeButton></a></unlikes>
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/fMplrMKIIoo?showinfo=0" frameborder="0" allowfullscreen></iframe>
-				<postsharing><a href="http://twitter.com/share" class="twitter-share-button" data-text="Work in progress #Ciacco Davide" data-url="http://ciaccodavi.de" data-count="small"></a></postsharing>
-			</div><br>
-			<div id="post">
-			<t>Eric the Car Guy!</t><br>
-				<a href=\"post.php?id=$ID&liked=1\"><likeButton>+<span>&nbsp$likes</span></likeButton></a><unlikes>&nbsp&nbsp<a href=\"post.php?id=$ID&unliked=1\"><unlikeButton>-<span>&nbsp$unlikes</span></unlikeButton></a></unlikes>
-				<iframe width="560" height="315" src="http://www.youtube.com/embed/fMplrMKIIoo?showinfo=0" frameborder="0" allowfullscreen></iframe>
-				<postsharing><a href="http://twitter.com/share" class="twitter-share-button" data-text="Work in progress #Ciacco Davide" data-url="http://ciaccodavi.de" data-count="small"></a></postsharing>
-			</div><br>
+			
+			
+			<?php
+				@include("http://floatingminds.altervista.org/ytyl/ytyl.php");
+				
+				$sql="SELECT * FROM `ytyl0`";}
+				$result=mysql_query($sql);
+				while($rows=mysql_fetch_array($result)){
+					$c=$rows['content'];
+					echo  $c ;
+				}
+				mysql_close();
+				?>
 		
 		</contents>
 		<footer>
